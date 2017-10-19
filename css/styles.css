@@ -1,0 +1,9 @@
+.jumbotron {
+  text-align: center;
+}
+#hideMe {
+  display: none;
+}
+#index-print {
+  display: none;
+}

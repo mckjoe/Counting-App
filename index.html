@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Count By</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Count up By!</h2>
+        <h4>A program that takes two numbers, one to count to and one to count by and then outputs each number counted.</h4>
+        <h6>By Joe McKinney</h6>
+      </div>
+      <div class="row">
+        <form id="input">
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="count-to">Please enter a number to count to:</label>
+              <input id="count-to" class="form-control" type="text">
+            </div>
+            <br>
+            <button id="first" type="submit">Enter</button>
+          </div>
+          <div id="hideMe" class="col-xs-6">
+            <div class="form-group">
+              <label for="count-by">Please enter a number to count by:</label>
+              <input id="count-by" class="form-control" type="text">
+            </div>
+            <br>
+            <button id="submitAll" type="submit">Start Counting!</button>
+          </div>
+        </form>
+      </div>
+      <div id="index-print">
+        <div class="well">
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
