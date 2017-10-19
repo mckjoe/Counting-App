@@ -1,9 +1,24 @@
+
+
 .jumbotron {
   text-align: center;
+  background-color: #D4C2B2;
+}
+.well {
+  text-decoration: underline;
+  color: #D4C2B2;
+  background-color: #EB712F;
 }
 #hideMe {
   display: none;
 }
 #index-print {
   display: none;
+}
+body{
+  color: #EB712F;
+  background-color: #F7EFD4;
+  border: 10px solid #EB712F;
+  padding: 10px;
+  margin: 10px;
 }
